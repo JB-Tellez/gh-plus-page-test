@@ -1,0 +1,5 @@
+console.log('.......1')
+page('/', () => console.log('home'))
+page('/foo', () => console.log('foo'))
+page('/bar', () => console.log('bar'))
+page.start()
