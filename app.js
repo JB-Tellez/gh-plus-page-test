@@ -1,5 +1,5 @@
-if (window.location !== '/') {
-    page.base('/gh-plus-page-test')
+if (window.location.pathname !== '/') {
+    page.base(window.location.pathname + '/')
 }
 
 page('/', () => console.log('home'))
