@@ -1,6 +1,4 @@
-console.log('.......7')
-
-page.base('/gh-plus-page-test')
+console.log('.......8')
 
 page('/', () => console.log('home'))
 page('/foo', () => console.log('foo'))
