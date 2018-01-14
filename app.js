@@ -1,4 +1,4 @@
-console.log('.......4')
+console.log('.......5')
 
 page.base('/gh-plus-page-test')
 
