@@ -1,6 +1,6 @@
 if (window.location.pathname !== '/') {
+    // NOTE: use /path-to-your-site
     page.base('/gh-plus-page-test')
-    // page.base(window.location.pathname)
 }
 
 page('/', () => console.log('home'))
