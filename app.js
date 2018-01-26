@@ -1,5 +1,5 @@
 if (window.location.pathname !== '/') {
-    // NOTE: use /path-to-your-site
+    // NOTE: use /your-repo-name
     page.base('/gh-plus-page-test')
 }
 
